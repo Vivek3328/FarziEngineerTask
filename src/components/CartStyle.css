@@ -1,0 +1,130 @@
+.payment {
+  padding: 20px;
+  margin: 20px;
+}
+
+.shopping-cart {
+  background-color: #5dd37c;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.payment h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.payment table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payment td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.payment td:first-child {
+  font-weight: bold;
+}
+
+.add-to-cart-button {
+  padding: 8px 15px !important;
+  font-size: 25px !important;
+  font-weight: bold;
+  background: rgb(105, 234, 114) !important;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 5px !important;
+  cursor: pointer;
+  width: 500px;
+}
+
+.btn-groups-mobile-cart {
+  width: 100%;
+  bottom: 0;
+}
+
+.btn-mobile-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+  width: 100%;
+
+}
+
+.add-to-cart-button-cart {
+  padding: 8px 15px !important;
+  font-size: 25px !important;
+  font-weight: bold;
+  background: rgb(105, 234, 114) !important;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 5px !important;
+  cursor: pointer;
+  width: 98%;
+}
+
+.delivery-mobile-cart {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.total-cart {
+  margin-left: 35px;
+}
+
+.total-first {
+  color: #808080;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 3px;
+}
+
+.total-second {
+  color: black;
+  font-size: 20px;
+}
+
+.shipping-cart {
+  padding: 1px 1px;
+  margin-right: 40px;
+  display: flex;
+  background-color: #D1FFD9;
+  color: #1EAF6D;
+  border-radius: 7px;
+}
+
+.truck-cart {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 700px) {
+
+  .add-to-cart-button {
+    padding: 8px 15px !important;
+    font-size: 25px !important;
+    font-weight: bold;
+    background: rgb(105, 234, 114) !important;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px !important;
+    cursor: pointer;
+    width: 100%;
+    /* margin-top: 30px; */
+    /* transition: background-color 0.3s ease; */
+  }
+
+  .main-cart {
+    width: 100%;
+  }
+}

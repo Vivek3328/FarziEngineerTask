@@ -1,0 +1,140 @@
+.perfume {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: fit-content;
+  padding: 10px 10px;
+}
+
+.perfume-first {
+  display: flex;
+  flex-direction: row;
+}
+
+.perfume-first img {
+
+  width: 22%;
+  padding: 5px;
+
+}
+
+.perfume-info {
+  font-size: 18px;
+  line-height: 1.5;
+  width: 70%;
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.perfume-info h2 {
+  /* Heading styles */
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.perfume-info p {
+  /* Description styles */
+  margin-bottom: 1rem;
+}
+
+.perfume-delete {
+  height: 20%;
+}
+
+.price-quantity {
+  /* Price and quantity container styles */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 18px;
+
+}
+
+.price-quan-first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 37%;
+}
+
+.price {
+  /* Price styles */
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+.price-save {
+  background-color: #EFFBF2;
+  padding: 2px 5px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 20%;
+  color: #32b956;
+}
+
+.price-quantity .original-price {
+  /* Original price styles (e.g., strikethrough) */
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+
+.quantity {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(212, 211, 211);
+  border-radius: 7px;
+  padding: 3px 10px;
+  justify-content: center;
+}
+
+.minus-button {
+
+  /* border: none; */
+  background-color: white;
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 10%;
+}
+
+.plus-button {
+  background-color: white;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 10%;
+  font-weight: 600;
+}
+
+
+.quantity-value {
+  padding: 0px 10px;
+  font-weight: bolder;
+
+
+}
+
+@media screen and (max-width: 700px) {
+  .perfume-info {
+    font-size: 14px;
+  }
+
+  .price-quan-first {
+    width: 50%;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+
+  .rupee {
+    font-size: 14px;
+  }
+
+  .price-save {
+    font-size: 14px;
+  }
+}
