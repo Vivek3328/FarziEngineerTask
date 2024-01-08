@@ -1,10 +1,8 @@
-## Introduction
-This React.js project aims to [briefly explain the purpose and goals of the project].
 
 ## Features
-- Feature 1: Description
-- Feature 2: Description
-- Add as many features as applicable.
+- Feature 1: Made a Product Page with image and description.
+- Feature 2: Implement the Add to Cart functionality to the product.
+- Deploy Link: https://farzi-engineer-task.vercel.app/
 
 ## Installation
 To get started with this project, follow these steps:
