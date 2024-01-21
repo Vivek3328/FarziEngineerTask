@@ -37,7 +37,7 @@ export default function Cart({ temp }) {
 
 
     return (
-        <div div className='main-cart'>
+        <div className='main-cart'>
 
             <div ref={btnRef} onClick={onOpen}>
                 {temp ? <button className="add-to-cart-button" onClick={() => setOpen(true)} >
