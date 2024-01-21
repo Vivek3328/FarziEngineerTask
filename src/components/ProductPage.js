@@ -15,12 +15,8 @@ import { QuantityContext } from '../Context/QuantityContext'
 
 
 
-
-
-
 export default function ProductPage({ product }) {
     const { quantity, setQuantity } = useContext(QuantityContext);
-
     const [activeImg, setActiveImg] = useState(img1);
     //const [cartOpen, setCartOpen] = useState(false);
 
@@ -44,9 +40,6 @@ export default function ProductPage({ product }) {
         };
 
         localStorage.setItem('cartItem', JSON.stringify(cartItem));
-        setQuantity(1);
-
-
         // console.log(cartItem);
     };
 
